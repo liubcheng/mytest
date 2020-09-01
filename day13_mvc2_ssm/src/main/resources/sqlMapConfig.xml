@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置类型别名-->
+    <!--<typeAliases>
+        &lt;!&ndash;把domain中的类全部注册别名,类名就是别名,不区分大小写&ndash;&gt;
+        <package name="com.itheima.domain"/>
+    </typeAliases>-->
+
+    <!--配置数据库的环境-->
+    <!--<environments default="ssm99">
+        <environment id="ssm99">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///ssm"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+   <!-- <mappers>
+        <package name="com.itheima.dao"/>
+    </mappers>-->
+</configuration>
